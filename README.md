@@ -28,7 +28,6 @@ Este repositório contém os scripts SQL e a documentação completa do projeto:
 * **`schema.sql`**: (DDL - Data Definition Language) Script que **cria** a estrutura do banco (`CREATE DATABASE`, `CREATE TABLE`) e define todas as chaves primárias (PK) e estrangeiras (FK).
 * **`insert.sql`**: (DML - Data Manipulation Language) Script que **popula** o banco de dados, inserindo os dados de exemplo (clientes, produtos e pedidos).
 * **`consultas.sql`**: (DQL - Data Query Language) Contém 5 consultas `SELECT` complexas para análise de dados, utilizando `JOIN`, `GROUP BY`, `ORDER BY` e `AVG()`.
-* **`manipulacao.sql`**: (DML) Contém os comandos `UPDATE` e `DELETE` para demonstrar a manipulação e a integridade dos dados (como `ON DELETE CASCADE`).
 
   O projeto foi desenvolvido e testado utilizando **MySQL Workbench**.
 
@@ -37,7 +36,6 @@ Este repositório contém os scripts SQL e a documentação completa do projeto:
 1.  Execute o **`schema.sql`** primeiro. Isso irá criar o banco `clinicavet_db` e todas as tabelas vazias.
 2.  Execute o **`insert.sql`** em seguida. Isso irá popular as tabelas com os dados de exemplo.
 3.  Execute o **`consultas.sql`** para testar as consultas de leitura e ver os resultados.
-4.  Execute o **`manipulacao.sql`** por último, para testar as regras de atualização e exclusão.
 
 
 
